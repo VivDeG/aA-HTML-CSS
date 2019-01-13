@@ -1,0 +1,161 @@
+<html>
+  <head>
+    <title>Ratatouille Recipe</title>
+    <meta name="description" content="A recipe for the beautiful French
+    Ratatouille, a baked dish of thinly sliced vegetables in tomato paste. It
+    is served up in the movie by the same name." charset="utf-8">
+    <script>
+      (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-12345678-9', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </head>
+  
+  <body>
+    
+    <header>
+    <img src="https://assets.aaonline.io/fullstack/html-css/micro-projects/appacademylogo.png"
+    alt="app-academy-logo" />
+  
+    <nav>
+      <ul>
+        <li><a href="#description">Description</a></li>
+        <li><a href="#ingredients">Ingredients</a></li>
+        <li><a href="#directions">Directions</a></li>
+      </ul>
+    </nav>
+    </header>
+
+    <h1>Ratatouille</h1>
+    
+    <aside>
+    <a name="ingredients" />
+      <h2>Ingredients</h2>
+      <p>
+        <ul>
+          <li>1 (6 ounce) can tomato paste</li>
+          <li>1/2 onion, chopped</li>
+          <li>1/4 cup minced garlic</li>
+          <li>1 tablespoon olive oil</li>
+          <li>3/4 cup water</li>
+          <li>salt and ground black pepper to taste</li>
+          <li>1 small eggplant, trimmed and very thinly sliced</li>
+          <li>1 zucchini, trimmed and very thinly sliced</li>
+          <li>1 yellow squash, trimmed and very thinly sliced</li>
+          <li>1 red bell pepper, cored and very thinly sliced</li>
+          <li>1 yellow bell pepper, cored and very thinly sliced</li>
+          <li>3 tablespoons olive oil, or to taste</li>
+          <li>1 teaspoon fresh thyme leaves, or to taste</li>
+          <li>3 tablespoons mascarpone cheese</li>
+        </ul>
+      </p>
+    </aside>
+
+    <section>
+      <figure>
+        <img src="https://images.media-allrecipes.com/userphotos/720x405/5955867.jpg"
+        alt="ratatouille-img" />
+
+        <figcaption>
+          <a href="https://en.wikipedia.org/wiki/Ratatouille">
+            Ratatouille
+          </a>
+        </figcaption>
+      </figure>
+
+
+      <a name="description" />
+      <h2>Description</h2>
+      <p>The beautiful ratatouille served up in the movie by the same name.
+        Long and narrow vegetables work best. Serve over a bed of brown rice,
+        couscous, pasta or other starch, or with crusty bread.
+      </p>
+      
+      <a name="directions" />
+      <h2>Directions</h2>
+      <p>
+        <ol>
+          <li>Preheat the oven to 375 degrees F (190 degrees C).</li>
+          <li>Spread tomato paste into the bottom of a 10x10-inch baking dish.
+            Sprinkle with onion and garlic and stir in 1 tablespoon olive oil
+            and water until thoroughly combined. Season with salt and black
+            pepper.</li>
+          <li>Arrange alternating slices of eggplant, zucchini, yellow squash,
+            red bell pepper, and yellow bell pepper, starting at the outer
+            edge of the dish and working concentrically towards the center.
+            Overlap the slices a little to display the colors. Drizzle the
+            vegetables with 3 tablespoons olive oil and season with salt and
+            black pepper. Sprinkle with thyme leaves. Cover vegetables with a
+            piece of parchment paper cut to fit inside.</li>
+            <li>Bake in the preheated oven until vegetables are roasted and
+              tender, about 45 minutes. Serve with dollops of mascarpone
+              cheese.</li>
+        </ol>
+      </p>
+    </section>
+
+    <section id="reviews">
+      <form id="review-form">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name">
+        </div>
+
+        <div>
+          <div>
+            <label for="rating">Rating:</label>
+          </div>
+          <div>
+            <input type="radio" name="rating" id="1" value="1" checked>
+            <label for="1">1</label>
+          </div>
+          <div>
+            <input type="radio" name="rating" id="2" value="2">
+            <label for="2">2</label>
+          </div>
+          <div>
+            <input type="radio" name="rating" id="3" value="3">
+            <label for="3">3</label>
+          </div>
+          <div>
+            <input type="radio" name="rating" id="4" value="4">
+            <label for="4">4</label>
+          </div>
+          <div>
+            <input type="radio" name="rating" id="5" value="5">
+            <label for="5">5</label>
+          </div>
+        </div>
+
+        <div>
+          <label for="expertise-select">Cooking Expertise:</label>
+          <select id="expertise-select">
+            <option value="" selected disabled>--Select Cooking Expertise--</option>
+            <option value="sometimes">Sometimes Cook</option>
+            <option value="everyday">Cook Everyday</option>
+            <option value="hobby">Cooking is a Hobby</option>
+            <option value="chef">Professional Chef</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="review">Review:</label>
+          <textarea id="review" name="review">Enter your review here.</textarea>
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <p>Recipe from Juli Warfel Bitler at
+        <a href="https://www.allrecipes.com/recipe/222006/disneys-ratatouille/">
+        allrecipes.com</a></p>
+    </footer>
+  </body>
+</html>
