@@ -1,2 +1,1 @@
-# W1D5
-# HTML <head>
+# W1D5 - HTML <head>
