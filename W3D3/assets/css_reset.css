@@ -1,0 +1,16 @@
+body, header, section, aside, nav, img, figure, figcaption, a, form, label,
+input, select, option, textarea, li, h1, h2, p, ul, ol {
+   margin: unset;
+   padding: unset;
+   border: none;
+   font: inherit;
+   list-style: unset;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img {
+  width: inherit;
+}
